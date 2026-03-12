@@ -209,6 +209,7 @@ ai-crude-oil-trading-bot/
 <p align="center">
   <a href="https://t.me/spidertrading100"><img src="https://img.shields.io/badge/Telegram-Group-26A5E4?style=for-the-badge&logo=telegram" alt="Telegram"></a>
 </p>
+<div align="center">
 
 | Channel | Link |
 |---------|------|
@@ -216,7 +217,7 @@ ai-crude-oil-trading-bot/
 | **Email** | [martinsurgenor.hynx@gmail.com](mailto:martinsurgenor.hynx@gmail.com) |
 
 ---
-
+</div>
 ## 💼 License
 
 This project is licensed under the **Apache License 2.0**. See [LICENSE](LICENSE).
